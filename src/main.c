@@ -53,6 +53,8 @@
 /* SWDIO pin (PIO0_2).                               */
 #define USE_SWD
 
+int i2cinit();
+
 void SwitchMatrix_Init() 
 { 
     /* Enable SWM clock */
